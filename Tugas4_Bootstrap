@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Layout with Bootstrap</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+<!-- Header dengan Navbar -->
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container-fluid">
+<a class="navbar-brand" href="#">
+<img src="gambar-removebg-preview.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+Korean
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link active" aria-current="page" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Features</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Pricing</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Dropdown link
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Action</a></li>
+<li><a class="dropdown-item" href="#">Another action</a></li>
+<li><a class="dropdown-item" href="#">Something else here</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+
+<!-- Dua Kolom Utama -->
+<main class="container my-5 flex-grow-1">
+<div class="row">
+<!-- Kolom Pertama dengan gambar gominsi -->
+<div class="col-md-6 mb-4">
+<h2>Biography</h2>
+<p>Go Min-si (Korean: 고민시; born February 15, 1995) is a South Korean actress, model and director managed by Mystic Story Entertainment.</p>
+<img src="gominsi.jpg" alt="gominsi" class="img-fluid rounded mb-1">
+</div>
+<!-- Kolom Kedua -->
+<div class="col-md-6 mb-4">
+<h2>Career</h2>
+<p>She is known for her prominent roles in television series such as Love Alarm (2019–2021), Sweet Home (2020–2023), Youth of May (2021), as well as the films The Witch: Part 1. The Subversion (2018) and Smugglers (2023).</p>
+</div>
+</div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center py-3 mt-auto">
+<p class="mb-0">© 2025 CODEC. All rights reserved.</p>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
